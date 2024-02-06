@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>{% block title %}My Flask Application{% endblock %}</title>
+    <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar or Site Logo -->
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- The content specific to each page will be inserted here -->
+        {% endblock %}
+    </main>
+</body>
+</html>
